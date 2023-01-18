@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Random CV</title>
+</head>
+<body>
+
+  <main class="main-container">
+    <header class="header seccion">
+      <p class="disclaimer"> *los datos que muestra esta web provienen de la api randomuser.me</p>
+      <img class="foto-cv" id="foto" src="" alt="">
+      <h1 class="saludo">Hi! My name is <span id="nombre"></span></h1>
+      <nav>
+        <a href="#datos">Info</a>
+        <a href="#contacto">Contact</a>
+      </nav>
+    </header>
+    <section id="datos" class="seccion datos">
+      <div>
+        <h3 id="div-edad" class="view-more">Age: <span id="edad"></span></h3>
+        <span class="oculto" id="cumpleanos"></span>
+      </div>
+      <div>
+        <h3 id="div-direccion" class="view-more">Address: <span id="direccion"></span></h3>
+        <span class="oculto" id="calle"></span>
+      </div>
+    </section>
+    <section id="contacto" class="seccion datos contacto">
+      <h3>Email: <span id="email"></span></h3>
+      <h3>Phone: <span id="telefono"></span></h3>
+      <h3>Cell: <span id="celular"></span></h3>
+    </section>
+    <footer>
+      &copy 2023 by oscarmumm
+    </footer>
+  </main>
+
+  <script src="js/index.js"></script>
+</body>
+</html>
